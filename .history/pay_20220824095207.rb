@@ -62,7 +62,7 @@ class Payroll
   end
 end 
 #GIVE A VALUE of what you earn
-clermy = Payroll.new("Clermy",500000)
+clermy = Payroll.new("Clermy",100000)
 
 puts "Gross Salary: #{clermy.gross_salary}"
 puts "NHIF: #{clermy.nhif}"
